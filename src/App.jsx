@@ -58,6 +58,7 @@ function App() {
  
   return (
     <div className={`bg-${color}-800 h-full w-full text-center pl-24 pr-24 pt-6`}>
+      <div className='bg-red-600 h-12 w-full mb-6 text-white text-3xl font-black'>YOUTUBE - by Vaibhav Mishra</div>
      <Input setSearchQuery={setsearchQuery}/>
      
      <div className='text-right pr-12'>  
